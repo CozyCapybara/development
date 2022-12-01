@@ -20,7 +20,6 @@ export function PlayerCard({item, addFavorite, removeFavorite}) {
         </ListGroup>
         <ToggleButton variant="primary" onClick={() => {addFavorite(item)}}>Add to Group</ToggleButton>
         <ToggleButton variant="primary" onClick={() => {removeFavorite(item)}}>Remove from Group</ToggleButton>
-
       </Card.Body>
     </Card>
   );

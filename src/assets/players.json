@@ -5,6 +5,7 @@
       "country": "England",
       "minutes": 1260,
       "image": "images/Ramsdale.jpg",
+      "favorite": false,
       "number": 1
     },
     {
@@ -13,6 +14,7 @@
       "country": "United States",
       "minutes": 0,
       "image": "images/Turner.jpg",
+      "favorite": false,
       "number": 30
     },
     {
@@ -21,6 +23,7 @@
       "country": "Scotland",
       "minutes": 354,
       "image": "images/Tierney.jpg",
+      "favorite": false,
       "number": 3
     },
     {
@@ -29,6 +32,7 @@
       "country": "England",
       "minutes": 14,
       "image": "images/Holding.jpg",
+      "favorite": false,
       "number": 16
     },
     {
@@ -37,6 +41,7 @@
       "country": "Japan",
       "minutes": 410,
       "image": "images/Tomiyasu.jpg",
+      "favorite": false,
       "number": 18
     },
     {
@@ -45,6 +50,7 @@
       "country": "Ukraine",
       "minutes": 559,
       "image": "images/Zinchenko.jpg",
+      "favorite": false,
       "number": 35
     },
     {
@@ -53,6 +59,7 @@
       "country": "England",
       "minutes": 1150,
       "image": "images/White.jpg",
+      "favorite": false,
       "number": 4
     },
     {
@@ -61,6 +68,7 @@
       "country": "France",
       "minutes": 1245,
       "image": "images/Saliba.jpg",
+      "favorite": false,
       "number": 12
     },
     {
@@ -69,6 +77,7 @@
       "country": "Brazil",
       "minutes": 1260,
       "image": "images/Gabriel.jpg",
+      "favorite": false,
       "number": 6
     },
     {
@@ -77,6 +86,7 @@
       "country": "Egypt",
       "minutes": 95,
       "image": "images/Elmeny.jpg",
+      "favorite": false,
       "number": 25
     },
     {
@@ -85,6 +95,7 @@
       "country": "Portugal",
       "minutes": 246,
       "image": "images/Viera.jpg",
+      "favorite": false,
       "number": 21
     },
     {
@@ -93,6 +104,7 @@
       "country": "Belgium",
       "minutes": 198,
       "image": "images/Lokonga.jpg",
+      "favorite": false,
       "number": 23
     },
     {
@@ -101,6 +113,7 @@
       "country": "Ghana ",
       "minutes": 959,
       "image": "images/Partey.jpg",
+      "favorite": false,
       "number": 5
     },
     {
@@ -109,14 +122,16 @@
       "country": "Norway",
       "minutes": 1074,
       "image": "images/Odegaard.jpg",
+      "favorite": false,
       "number": 8
     },
     {
       "name": "Granit Xhaka",
       "position": "Midfielder",
-      "country": "England",
+      "country": "Switzerland",
       "minutes": 1260,
       "image": "images/Xhaka.jpg",
+      "favorite": false,
       "number": 34
     },
     {
@@ -125,6 +140,7 @@
       "country": "England",
       "minutes": 51,
       "image":"images/SmithRowe.jpg",
+      "favorite": false,
       "number": 10
     },
     {
@@ -133,6 +149,7 @@
       "country": "England",
       "minutes": 152,
       "image":"images/anika.jpg",
+      "favorite": false,
       "number": 14
     },
     {
@@ -141,6 +158,7 @@
       "country": "England",
       "minutes": 62,
       "image":"images/Nelson.jpg",
+      "favorite": false,
       "number": 24
     },
     {
@@ -149,6 +167,7 @@
       "country": "England",
       "minutes": 1171,
       "image":"images/Saka.jpg",
+      "favorite": false,
       "number": 7
     },
     {
@@ -157,6 +176,7 @@
       "country": "Brazil",
       "minutes": 1181,
       "image":"images/Martinelli.jpg",
+      "favorite": false,
       "number": 11
     },
     {
@@ -165,6 +185,7 @@
       "country": "Brazil",
       "minutes": 1219,
       "image":"images/Jesus.jpg",
+      "favorite": false,
       "number": 9
     }
   ]
