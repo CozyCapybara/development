@@ -1,0 +1,170 @@
+[
+    {
+      "name": "Aaron Ramsdale",
+      "position": "Goalkeeper",
+      "country": "England",
+      "minutes": 1260,
+      "image": "images/Ramsdale.jpg",
+      "number": 1
+    },
+    {
+      "name": "Matt Turner",
+      "position": "Goalkeeper",
+      "country": "United States",
+      "minutes": 0,
+      "image": "images/Turner.jpg",
+      "number": 30
+    },
+    {
+      "name": "Kieran Tierney",
+      "position": "Defender",
+      "country": "Scotland",
+      "minutes": 354,
+      "image": "images/Tierney.jpg",
+      "number": 3
+    },
+    {
+      "name": "Rob Holding",
+      "position": "Defender",
+      "country": "England",
+      "minutes": 14,
+      "image": "images/Holding.jpg",
+      "number": 16
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "position": "Defender",
+      "country": "Japan",
+      "minutes": 410,
+      "image": "images/Tomiyasu.jpg",
+      "number": 18
+    },
+    {
+      "name": "Oleksandr Zinchenko",
+      "position": "Defender",
+      "country": "Ukraine",
+      "minutes": 559,
+      "image": "images/Zinchenko.jpg",
+      "number": 35
+    },
+    {
+      "name": "Ben White",
+      "position": "Defender",
+      "country": "England",
+      "minutes": 1150,
+      "image": "images/White.jpg",
+      "number": 4
+    },
+    {
+      "name": "William Saliba",
+      "position": "Defender",
+      "country": "France",
+      "minutes": 1245,
+      "image": "images/Saliba.jpg",
+      "number": 12
+    },
+    {
+      "name": "Gabriel",
+      "position": "Defender",
+      "country": "Brazil",
+      "minutes": 1260,
+      "image": "images/Gabriel.jpg",
+      "number": 6
+    },
+    {
+      "name": "Mohammed Elmeny",
+      "position": "Defender",
+      "country": "Egypt",
+      "minutes": 95,
+      "image": "images/Elmeny.jpg",
+      "number": 25
+    },
+    {
+      "name": "Fabio Viera",
+      "position": "Midfielder",
+      "country": "Portugal",
+      "minutes": 246,
+      "image": "images/Viera.jpg",
+      "number": 21
+    },
+    {
+      "name": "Albert Sambi Lokonga",
+      "position": "Midfielder",
+      "country": "Belgium",
+      "minutes": 198,
+      "image": "images/Lokonga.jpg",
+      "number": 23
+    },
+    {
+      "name": "Thomas Partey",
+      "position": "Midfielder",
+      "country": "Ghana ",
+      "minutes": 959,
+      "image": "images/Partey.jpg",
+      "number": 5
+    },
+    {
+      "name": "Martin Odegaard",
+      "position": "Midfielder",
+      "country": "Norway",
+      "minutes": 1074,
+      "image": "images/Odegaard.jpg",
+      "number": 8
+    },
+    {
+      "name": "Granit Xhaka",
+      "position": "Midfielder",
+      "country": "England",
+      "minutes": 1260,
+      "image": "images/Xhaka.jpg",
+      "number": 34
+    },
+    {
+      "name": "Emile Smith Rowe",
+      "position": "Midfielder",
+      "country": "England",
+      "minutes": 51,
+      "image":"images/SmithRowe.jpg",
+      "number": 10
+    },
+    {
+      "name": "Eddie Nketiah",
+      "position": "Forward",
+      "country": "England",
+      "minutes": 152,
+      "image":"images/anika.jpg",
+      "number": 14
+    },
+    {
+      "name": "Reiss Nelson",
+      "position": "Forward",
+      "country": "England",
+      "minutes": 62,
+      "image":"images/Nelson.jpg",
+      "number": 24
+    },
+    {
+      "name": "Bukayo Saka",
+      "position": "Forward",
+      "country": "England",
+      "minutes": 1171,
+      "image":"images/Saka.jpg",
+      "number": 7
+    },
+    {
+      "name": "Gabrial Martinelli",
+      "position": "Forward",
+      "country": "Brazil",
+      "minutes": 1181,
+      "image":"images/Martinelli.jpg",
+      "number": 11
+    },
+    {
+      "name": "Gabriel Jesus",
+      "position": "Forward",
+      "country": "Brazil",
+      "minutes": 1219,
+      "image":"images/Jesus.jpg",
+      "number": 9
+    }
+  ]
