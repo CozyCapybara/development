@@ -1,11 +1,9 @@
-
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
 import players from "./assets/players.json";
 import { PlayerCard } from "./components/player"
-import { filter } from 'dom-helpers';
-import { updateFilters } from "./components/filterHandler"
-import { CheckBoxes } from './components/CheckBoxes';
+import { Filters } from './components/Filters';
 
 
 
@@ -100,6 +98,7 @@ function App() {
     }
   }
 
+  // tried multiple sorts, didn't work
   const changeSortMin = (a,b) => {
     if (sortMin) {
       return sortMinutes(a,b);
@@ -135,6 +134,7 @@ function App() {
     }
   }
 
+  // tried to make reset, couldn't figure it out
   function uncheckAll() {
     document.querySelectorAll('input[type="checkbox"]')
       .forEach(el => el.checked = false);
@@ -161,36 +161,29 @@ function App() {
     <div className="App">
 
       <div className="header">
-        <div className="arsenal-logo">
-
-        </div>
         <div className="title">
           Arsenal Football Club Roster
         </div>
         <div className="desc">
-          We are winning the league 
+          WE ARE WINNING THE LEAGUE
         </div>
+
       </div>
 
-      <div id="favorites">
-
+      <div className="favorites">
         <p>List of Favorites:</p> 
-        {favPlayers.map((name) => {
-          return(<p className="favorites-names">{name}</p>)
-        })}
-        <p>Total Minutes of Favorites: {mins}</p>
-        
+        <div className="favorites-list">
+          {favPlayers.map((name) => {
+            return(<p className="favorites-names">{name}</p>)
+          })}
+        </div>
+        <p>Combined Minutes: {mins}</p>
       </div>
 
-
-
- 
       <div className="main-container">
-        
-
         <div className="main-grid">
           <div className="sidebar">
-            <CheckBoxes addCountryFilter={addCountryFilter} addPositionFilter={addPositionFilter} removeCountryFilter={removeCountryFilter} removePositionFilter={removePositionFilter}/>
+            <Filters addCountryFilter={addCountryFilter} addPositionFilter={addPositionFilter} removeCountryFilter={removeCountryFilter} removePositionFilter={removePositionFilter}/>
             <button onClick={() => setSortNum(!sortNum)}>Sort by Number</button>
           </div>
 

@@ -1,7 +1,7 @@
 import '../App.css';
 
 
-export function CheckBoxes({addCountryFilter: applyCountryFilter, addPositionFilter: applyPositionFilter, removeCountryFilter, removePositionFilter}) {
+export function Filters({addCountryFilter: applyCountryFilter, addPositionFilter: applyPositionFilter, removeCountryFilter, removePositionFilter}) {
   
   const handleCountryFilterChange = (event, country) => {
     if (event.target.checked === true){
@@ -113,5 +113,5 @@ export function CheckBoxes({addCountryFilter: applyCountryFilter, addPositionFil
 
 }
 
-export default CheckBoxes
+export default Filters
 
