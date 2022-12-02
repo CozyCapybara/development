@@ -21,8 +21,9 @@ export function CheckBoxes({addCountryFilter: applyCountryFilter, addPositionFil
 
   return (
     <div className="filters-wrapper">
-      <p className="filter-name">Filter by Nationality</p>
-      <div className="country-filters">
+      
+      <div className="country-group">
+        <p className="filter-name">Filter by Nationality</p>
         <label className="labels">
           <input type="checkbox" onChange={event => handleCountryFilterChange(event, "England")}/>
             England
@@ -81,8 +82,9 @@ export function CheckBoxes({addCountryFilter: applyCountryFilter, addPositionFil
         </label>
       </div>
 
-      <p className="filter-name">Filter by Position</p>
-      <div className="position-filters">
+      
+      <div className="position-group">
+        <p className="filter-name">Filter by Position</p>
         <label className='labels'>
           <input type="checkbox" onChange={event => handlePositionFilterChange(event, "Goalkeeper")}/>
             Goalkeeper

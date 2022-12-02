@@ -19,8 +19,8 @@ export function PlayerCard({item, addFavorite, removeFavorite}) {
           <ListGroup.Item>Position: {item.position}</ListGroup.Item>
           <ListGroup.Item>Minutes: {item.minutes}</ListGroup.Item>
         </ListGroup>
-        <button onClick={() => {addFavorite(item)}}>Add to Group</button>
-        <button onClick={() => {removeFavorite(item)}}>Remove from Group</button>
+        <button className="add-favorite" onClick={() => {addFavorite(item)}}>Add to Favorites</button>
+        <button className="remove-favorite" onClick={() => {removeFavorite(item)}}>Remove from Favorites</button>
       </Card.Body>
     </Card>
   );

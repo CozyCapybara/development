@@ -25,7 +25,8 @@ function App() {
   const [positionFilters, setPositionFilters] = useState([]);
   const [countryFilters, setCountryFilters] = useState([]);
   //const [favoriteFilter, setFavoriteFilter] = useState(false);
-  const [sort, setSort] = useState(false);
+  const [sortNum, setSortNum] = useState(false);
+  const [sortMin, setSortMin] = useState(false);
 
   // const sortTypes = ["None", "Minutes", "Number"];
 
@@ -86,14 +87,27 @@ function App() {
     return a.number - b.number;
   }
 
+  const sortMinutes = (a,b) => {
+    return b.minutes - a.minutes;
+  }
 
-  const changeSort = (a,b) => {
-    if (sort) {
+
+  const changeSortNum = (a,b) => {
+    if (sortNum) {
       return sortNumber(a,b);
     } else {
       randomSort(a,b);
     }
   }
+
+  const changeSortMin = (a,b) => {
+    if (sortMin) {
+      return sortMinutes(a,b);
+    } else {
+      randomSort(a,b);
+    }
+  }
+
 
   const randomSort = (a,b) => {
     return -1;
@@ -121,12 +135,27 @@ function App() {
     }
   }
 
+  function uncheckAll() {
+    document.querySelectorAll('input[type="checkbox"]')
+      .forEach(el => el.checked = false);
+  }
+
+  
+  function resetData() {
+    setFavPlayers([]);
+    setMins(0);
+    setCountryFilters([]);
+    setPositionFilters([]);
+    uncheckAll();
+  }
+
   //<CheckBoxes addCountryFilter={addCountryFilter} addPositionFilter={addPositionFilter} removeCountryFilter={removeCountryFilter} removePostionFilter={removePositionFilter}/>
 
   
 
   const filteredArray = players.filter(item => filterByCountry(item)).filter(item => filterByPosition(item));
-  filteredArray.sort((a,b) => changeSort(a,b));
+  filteredArray.sort((a,b) => changeSortNum(a,b));
+  // filteredArray.sort((a,b) => changeSortMin(a,b));
 
   return (
     <div className="App">
@@ -144,10 +173,11 @@ function App() {
       </div>
 
       <div id="favorites">
-        <p className='section-label'>Favorites</p> 
-        <div>
-          
-        </div>
+
+        <p>List of Favorites:</p> 
+        {favPlayers.map((name) => {
+          return({name})
+        })}
         <p>Total Minutes of Favorites: {mins}</p>
         
       </div>
@@ -161,7 +191,7 @@ function App() {
         <div className="main-grid">
           <div className="sidebar">
             <CheckBoxes addCountryFilter={addCountryFilter} addPositionFilter={addPositionFilter} removeCountryFilter={removeCountryFilter} removePositionFilter={removePositionFilter}/>
-
+            <button onClick={() => setSortNum(!sortNum)}>Sort by Number</button>
           </div>
 
           <div className="item-grid">
