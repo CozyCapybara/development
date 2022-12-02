@@ -140,7 +140,7 @@ function App() {
       .forEach(el => el.checked = false);
   }
 
-  
+
   function resetData() {
     setFavPlayers([]);
     setMins(0);
@@ -176,7 +176,7 @@ function App() {
 
         <p>List of Favorites:</p> 
         {favPlayers.map((name) => {
-          return({name})
+          return(<p className="favorites-names">{name}</p>)
         })}
         <p>Total Minutes of Favorites: {mins}</p>
         
